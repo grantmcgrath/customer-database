@@ -1,0 +1,36 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+h2 {
+  text-transform: capitalize;
+  /*border-bottom: 3px solid grey;*/
+}
+
+div {
+  width: 23%;
+  word-wrap: break-word;
+}
+
+img {
+  width: 100%;
+}
+
+p {
+  text-transform: capitalize;
+}
+
+section {
+  display: flex;
+  flex-flow: wrap row;
+  justify-content: space-between;
+}
+
+.email {
+  text-transform: uppercase;
+}
