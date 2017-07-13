@@ -1,19 +1,35 @@
 body {
   font-family: sans-serif;
   text-align: center;
+  font-size: 1.3vw;
+  font-weight: 400;
+}
+
+section {
+  display: flex;
+  flex-flow: wrap row;
+  justify-content: space-between;
+  margin: 1vw;
 }
 
 h1 {
   text-transform: uppercase;
+  margin-bottom: 4vw;
+  font-size: 3vw;
 }
 
 h2 {
-  text-transform: capitalize;
-  /*border-bottom: 3px solid grey;*/
+  text-transform: uppercase;
+  border-bottom: .2vw solid #a1d3b9;
+  font-size: 1.5vw;
+  padding-bottom: .5vw;
+  font-weight: 600;
+  margin-bottom: 1vw;
+  display: inline-block;
 }
 
 div {
-  width: 23%;
+  width: 23vw;
   word-wrap: break-word;
 }
 
@@ -23,14 +39,37 @@ img {
 
 p {
   text-transform: capitalize;
-}
-
-section {
-  display: flex;
-  flex-flow: wrap row;
-  justify-content: space-between;
+  margin: 0;
+  font-weight: 300;
+  color: #989898;
 }
 
 .email {
   text-transform: uppercase;
+  margin-bottom: 1.4vw;
+  color: #c5c5c5;
+  font-weight: 200;
+  font-size: 1.2vw;
+}
+
+.address {
+  margin-bottom: .5vw;
+}
+
+.ssn {
+  margin-top: 2vw;
+  margin-bottom: 5vw;
+  color: #a1d3b9;
+  display: inline-block;
+
+}
+
+.blurry-text {
+   color: transparent;
+   text-shadow: 0 0 8px rgba(56,107,65,0.6);
+}
+
+.blurry-text:hover {
+   color: #a1d3b9;
+   text-shadow: none;
 }

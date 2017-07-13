@@ -26,9 +26,10 @@ for (var i = 0; i < customers.results.length; i++) {
     <img src="${customers.results[i].picture.large}">
     <h2>${customers.results[i].name.first} ${customers.results[i].name.last}</h2>
     <p class="email">${customers.results[i].email}</p>
-    <p>${customers.results[i].location.city} ${customers.results[i].location.state} ${customers.results[i].location.postcode}</p>
+    <p class="address">${customers.results[i].location.street}</p>
+    <p class="address">${customers.results[i].location.city}, ${customers.results[i].location.state} ${customers.results[i].location.postcode}</p>
     <p>${customers.results[i].phone}</p>
-    <p>${customers.results[i].id.value}</p>
+    <p class="ssn blurry-text">${customers.results[i].id.value}</p>
 `;
 
   div.innerHTML += template;
