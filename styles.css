@@ -44,6 +44,10 @@ p {
   color: #989898;
 }
 
+a {
+  color: #989898;
+}
+
 .email {
   text-transform: uppercase;
   margin-bottom: 1.4vw;
